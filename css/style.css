@@ -1,0 +1,72 @@
+style.css
+
+/* Navigation Menu */
+nav {
+  background-color: #000000;
+  font-family: Roboto, sans-serif;
+  color: #FFFFFF;
+  width: 800px;
+  margin: 0 auto; /* Center the menu horizontally */
+  padding: 0;
+}
+
+nav ul {
+  list-style: none; /* Remove default list style */
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block; /* Display menu items horizontally */
+  padding: 10px;
+}
+
+nav li a {
+  color: inherit; /* Inherit font color from nav */
+  text-decoration: none; /* Remove default link underline */
+}
+
+nav li:hover a {
+  background-color: #333333;
+  color: #f2f2f2;
+}
+
+nav li.active a { /* Style for current menu item (add this class to the active link in your HTML) */
+  background-color: #333333;
+  color: #f2f2f2;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  background-color: #0072c6;
+  color: #FFFFFF;
+  padding: 10px;
+  border: none;
+  cursor: pointer; /* Change cursor to indicate clickability */
+}
+
+/* Page Styles */
+body {
+  background-color: #ADD8E6;
+  font-family: Arial, sans-serif;
+  color: #00008B;
+}
+
+header {
+  background-color: #00008B;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto; /* Center content horizontally */
+  padding: 20px;
+  background-color: #ADD8E6;
+  border: 1px solid #00008B;
+}
+
+a {
+  color: #00008B;
+  text-decoration: underline;
+}
